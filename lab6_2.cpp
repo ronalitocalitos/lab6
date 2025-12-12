@@ -18,6 +18,7 @@ float findYComponent(float l1,float a1,float l2,float a2){
 float pythagoras(float xcomp,float ycomp){
     return sqrt(pow(xcomp,2)+pow(ycomp,2));
 }
+
 float showResult(float x,float y){
     cout << "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%";
     cout << "Length of the resultant vector = " << x;
